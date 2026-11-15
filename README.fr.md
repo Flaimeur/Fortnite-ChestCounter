@@ -2,7 +2,7 @@
 
 [English](README.md) · **Français** · [Español](README.es.md)
 
-<img src="docs/icon.png" alt="" width="88">
+<img src="docs/logo-piece.png" alt="" width="88">
 
 # Compteur de coffres Fortnite
 

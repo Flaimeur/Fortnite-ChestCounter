@@ -2,7 +2,7 @@
 
 [English](README.md) · [Français](README.fr.md) · **Español**
 
-<img src="docs/icon.png" alt="" width="88">
+<img src="docs/logo-piece.png" alt="" width="88">
 
 # Contador de cofres de Fortnite
 
