@@ -6,7 +6,7 @@
 
 # Fortnite Chest Counter
 
-[![version](https://img.shields.io/github/v/release/LED-N/Fortnite-ChestCounter?style=flat-square&label=version&color=e8b04b)](../../releases/latest) [![downloads](https://img.shields.io/github/downloads/LED-N/Fortnite-ChestCounter/total?style=flat-square&label=downloads&color=e8b04b)](../../releases) ![Windows 10 | 11](https://img.shields.io/badge/Windows-10%20%7C%2011-3a7bd5?style=flat-square) [![license](https://img.shields.io/github/license/LED-N/Fortnite-ChestCounter?style=flat-square&label=license&color=555)](LICENSE)
+[![version](https://img.shields.io/github/v/release/Flaimeur/Fortnite-ChestCounter?style=flat-square&label=version&color=e8b04b)](../../releases/latest) [![downloads](https://img.shields.io/github/downloads/Flaimeur/Fortnite-ChestCounter/total?style=flat-square&label=downloads&color=e8b04b)](../../releases) ![Windows 10 | 11](https://img.shields.io/badge/Windows-10%20%7C%2011-3a7bd5?style=flat-square) [![license](https://img.shields.io/github/license/Flaimeur/Fortnite-ChestCounter?style=flat-square&label=license&color=555)](LICENSE)
 
 **Counts every chest you open in Fortnite, match after match, with an overlay that blends into the game.**
 
@@ -15,6 +15,15 @@
 [**⬇ Download ChestCounter.exe**](../../releases/latest) · Windows 10 / 11 · free · no install
 
 </div>
+
+> [!NOTE]
+> **Flaimeur's version**, based on [LED-N's ChestCounter](https://github.com/LED-N/Fortnite-ChestCounter) (MIT license). What changes:
+> - a **plain dark look** (very dark grey, gold accent), no parchment or pirate font;
+> - a **new logo** (gold coin);
+> - **updates come from this repository**. The treasure hunt data (weeks, odds, Treasure Hours) still arrives by itself from LED-N's repository.
+>
+> All the counting and replay analysis work is LED-N's: thanks to him!
+
 
 ---
 

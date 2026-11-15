@@ -6,7 +6,7 @@
 
 # Compteur de coffres Fortnite
 
-[![version](https://img.shields.io/github/v/release/LED-N/Fortnite-ChestCounter?style=flat-square&label=version&color=e8b04b)](../../releases/latest) [![téléchargements](https://img.shields.io/github/downloads/LED-N/Fortnite-ChestCounter/total?style=flat-square&label=t%C3%A9l%C3%A9chargements&color=e8b04b)](../../releases) ![Windows 10 | 11](https://img.shields.io/badge/Windows-10%20%7C%2011-3a7bd5?style=flat-square) [![licence](https://img.shields.io/github/license/LED-N/Fortnite-ChestCounter?style=flat-square&label=licence&color=555)](LICENSE)
+[![version](https://img.shields.io/github/v/release/Flaimeur/Fortnite-ChestCounter?style=flat-square&label=version&color=e8b04b)](../../releases/latest) [![téléchargements](https://img.shields.io/github/downloads/Flaimeur/Fortnite-ChestCounter/total?style=flat-square&label=t%C3%A9l%C3%A9chargements&color=e8b04b)](../../releases) ![Windows 10 | 11](https://img.shields.io/badge/Windows-10%20%7C%2011-3a7bd5?style=flat-square) [![licence](https://img.shields.io/github/license/Flaimeur/Fortnite-ChestCounter?style=flat-square&label=licence&color=555)](LICENSE)
 
 **Compte chaque coffre que tu ouvres dans Fortnite, partie après partie, avec un overlay qui se fond dans le jeu.**
 
@@ -15,6 +15,15 @@
 [**⬇ Télécharger ChestCounter.exe**](../../releases/latest) · Windows 10 / 11 · gratuit · sans installation
 
 </div>
+
+> [!NOTE]
+> **Version de Flaimeur**, basée sur [ChestCounter de LED-N](https://github.com/LED-N/Fortnite-ChestCounter) (licence MIT). Ce qui change :
+> - un **style sombre et sobre** (fond gris très foncé, accent doré), sans parchemin ni police pirate ;
+> - un **nouveau logo** (pièce d'or) ;
+> - les **mises à jour viennent de ce dépôt**. Les données de la chasse au trésor (semaines, chances, heures du trésor) arrivent toujours toutes seules depuis le dépôt de LED-N.
+>
+> Tout le travail de comptage et d'analyse des replays est celui de LED-N : merci à lui !
+
 
 ---
 
