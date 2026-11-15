@@ -84,7 +84,7 @@ public static class ReleaseNotes
 public static class Updater
 {
     private static string ApiUrl => Environment.GetEnvironmentVariable("CHESTCOUNTER_UPDATE_API")
-        ?? $"https://api.github.com/repos/{AppInfo.Repo}/releases/latest";
+        ?? $"https://api.github.com/repos/{AppInfo.UpdateRepo}/releases/latest";
 
     private static HttpClient NewClient(TimeSpan timeout)
     {

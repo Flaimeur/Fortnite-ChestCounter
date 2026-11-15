@@ -7,8 +7,11 @@ public static class AppInfo
 
     public static string VersionText => $"{Version.Major}.{Version.Minor}.{Math.Max(0, Version.Build)}";
 
+    /// <summary>Dépôt d'origine (LED-N) : données de la chasse au trésor (content.json) et images des trésors.</summary>
     public const string Repo = "LED-N/Fortnite-ChestCounter";
-    public static string RepoUrl => "https://github.com/" + Repo;
+    /// <summary>Dépôt de cette version (fork Flaimeur) : les mises à jour de l'exe viennent de ses releases.</summary>
+    public const string UpdateRepo = "Flaimeur/Fortnite-ChestCounter";
+    public static string RepoUrl => "https://github.com/" + UpdateRepo;
     public static string IssuesUrl => RepoUrl + "/issues";
 
     /// <summary>Path of ChestCounter.exe when running as the published exe (null under "dotnet ChestCounter.dll").</summary>
