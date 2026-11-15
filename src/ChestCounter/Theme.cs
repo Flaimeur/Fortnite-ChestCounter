@@ -28,7 +28,7 @@ public static class Theme
         header{border-bottom:none!important;padding-bottom:4px!important}
         footer{border-top:none!important;color:var(--muted)}
         .who,.who b{color:var(--muted)}
-        .brand svg{flex:none;border-radius:12px}
+        .brand svg{flex:none}
 
         /* Cartes */
         .tile,.card,.hcard,.odds,.notice,.thour,.loading,dialog,.prize{background:var(--card)!important;color:var(--ink)!important;

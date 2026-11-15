@@ -6,7 +6,7 @@ Version de Flaimeur, basée sur [ChestCounter de LED-N](https://github.com/LED-N
 
 **Nouveautés de la 1.6.0**
 - **Nouveau style** : fond sombre, cartes sobres et accent doré, comme l'ancien rapport. Plus de parchemin ni de police pirate, dans la fenêtre comme dans le rapport
-- **Nouveau logo** : un coffre doré, pour l'exe, la fenêtre et le rapport
+- **Nouveau logo** : une pièce d'or gravée d'un coffre, pour l'exe, la fenêtre et le rapport
 - **Mises à jour** : elles viennent maintenant de ce dépôt (Flaimeur/Fortnite-ChestCounter). Les données de la chasse au trésor (semaines, chances, heures du trésor) continuent d'arriver toutes seules depuis le dépôt de LED-N
 
 Windows peut afficher « Windows a protégé votre ordinateur » (exe non signé) : *Informations complémentaires → Exécuter quand même*.
@@ -21,7 +21,7 @@ Flaimeur's version, based on [LED-N's ChestCounter](https://github.com/LED-N/For
 
 **What's new in 1.6.0**
 - **New look**: dark background, plain cards and a gold accent, like the old report. No more parchment or pirate font, in the window and in the report
-- **New logo**: a gold chest, for the exe, the window and the report
+- **New logo**: a gold coin with a chest, for the exe, the window and the report
 - **Updates** now come from this repository (Flaimeur/Fortnite-ChestCounter). The treasure hunt data (weeks, odds, Treasure Hours) still arrives by itself from LED-N's repository
 
 Windows may show *"Windows protected your PC"* (unsigned exe): *More info → Run anyway*.
