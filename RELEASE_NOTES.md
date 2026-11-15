@@ -4,7 +4,8 @@
 
 Version de Flaimeur, basée sur [ChestCounter de LED-N](https://github.com/LED-N/Fortnite-ChestCounter) 1.5.1 (licence MIT).
 
-**Nouveautés de la 1.6.0**
+**Nouveautés de la 1.6.1**
+- **Overlay en jeu au style sombre** : la carte comme dans la 1.3 (total en doré, partie en cours, session, dernière partie, trésors). Ton overlay passe à ce style une fois ; le style HUD reste au choix dans l'onglet Overlay
 - **Nouveau style** : fond sombre, cartes sobres et accent doré, comme l'ancien rapport. Plus de parchemin ni de police pirate, dans la fenêtre comme dans le rapport
 - **Nouveau logo** : une pièce d'or gravée d'un coffre, pour l'exe, la fenêtre et le rapport
 - **Mises à jour** : elles viennent maintenant de ce dépôt (Flaimeur/Fortnite-ChestCounter). Les données de la chasse au trésor (semaines, chances, heures du trésor) continuent d'arriver toutes seules depuis le dépôt de LED-N
@@ -19,7 +20,8 @@ Windows peut afficher « Windows a protégé votre ordinateur » (exe non signé
 
 Flaimeur's version, based on [LED-N's ChestCounter](https://github.com/LED-N/Fortnite-ChestCounter) 1.5.1 (MIT license).
 
-**What's new in 1.6.0**
+**What's new in 1.6.1**
+- **Dark in-game overlay**: the card like in 1.3 (total in gold, match in progress, session, last match, treasures). Your overlay switches to it once; the HUD style is still available in the Overlay tab
 - **New look**: dark background, plain cards and a gold accent, like the old report. No more parchment or pirate font, in the window and in the report
 - **New logo**: a gold coin with a chest, for the exe, the window and the report
 - **Updates** now come from this repository (Flaimeur/Fortnite-ChestCounter). The treasure hunt data (weeks, odds, Treasure Hours) still arrives by itself from LED-N's repository

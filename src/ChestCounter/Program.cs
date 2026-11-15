@@ -231,6 +231,13 @@ var log = new ActivityLog();
 UpdateInfo? update = null;
 var updateAnnounced = false;
 var showWhatsNew = !firstRun && config.LastVersion != AppInfo.VersionText;
+// Version Flaimeur 1.6.1 : l'overlay passe une fois au style sombre (carte comme la 1.3). Le style HUD reste au choix
+// dans l'onglet Overlay, et ce choix n'est plus jamais changé.
+if (!firstRun && (!Version.TryParse(config.LastVersion, out var prevVersion) || prevVersion < new Version(1, 6, 1)) && config.OverlayStyle == "hud")
+{
+    config.OverlayStyle = "classic";
+    store.SaveConfig(config);
+}
 // Coming from the console versions (before 1.5): their "minimize to the notification area" was on by default and is
 // saved in every config. The window starts with the taskbar, like a new install; the setting is in Settings.
 // Done once: the version is saved now (what's new stays on the home tab for this session).
@@ -557,7 +564,7 @@ void StartOverlay()
     NativeOverlay.SetAppearance(config.OverlaySize, config.OverlayOpacity);
     if (Array.IndexOf(NativeOverlay.Styles, config.OverlayStyle) < 0)
     {
-        config.OverlayStyle = "hud"; // a style tried in a test version and removed since
+        config.OverlayStyle = "classic"; // a style tried in a test version and removed since
     }
     NativeOverlay.SetStyle(config.OverlayStyle);
     NativeOverlay.Start(config.OverlayX, config.OverlayY, config.OverlayLocked,

@@ -60,7 +60,7 @@ public static class GuiPage
             "Pequeña ventana siempre visible que muestra tus cofres en el juego (Fortnite en «Pantalla completa en ventana»). Ctrl+Mayús+O: mostrar / ocultar, Ctrl+Mayús+L: bloquear."),
         ["style"] = L.T("Style", "Style", "Estilo"),
         ["hud"] = L.T("HUD (intégré au jeu)", "HUD (blends into the game)", "HUD (integrado en el juego)"),
-        ["classic"] = L.T("Classique (carte sombre)", "Classic (dark card)", "Clásico (tarjeta oscura)"),
+        ["classic"] = L.T("Sombre (carte, comme la 1.3)", "Dark (card, like 1.3)", "Oscuro (tarjeta, como la 1.3)"),
         ["size"] = L.T("Taille", "Size", "Tamaño"),
         ["opacity"] = L.T("Opacité", "Opacity", "Opacidad"),
         ["squadToggle"] = L.T("Afficher le total d'équipe", "Show the squad total", "Mostrar el total del equipo"),
@@ -349,7 +349,7 @@ public static class GuiPage
         function overlay(T){
           const o=S.overlay;
           let h=`<div class="card">${row(esc(T.inGame),esc(T.inGameHelp),sw('ov',o.show,'showOverlay'))}
-            ${row(esc(T.style),'',sel('overlayStyle',o.style,[['hud',T.hud],['classic',T.classic]]))}
+            ${row(esc(T.style),'',sel('overlayStyle',o.style,[['classic',T.classic],['hud',T.hud]]))}
             ${o.show?row(esc(T.size),'',sel('overlaySize',o.size,o.sizes.map(x=>[x,x+' %'])))+row(esc(T.opacity),'',sel('overlayOpacity',o.opacity,o.opacities.map(x=>[x,x+' %']))):''}
             ${row(esc(T.squadToggle)+`<span class="badge" title="${esc(T.inaccurateWhy)}">${esc(T.inaccurate)}</span>`,esc(T.squadHelp)+'<br>'+esc(T.inaccurateWhy),sw('sq',o.squad,'showSquadTotal'))}</div>
             <section><h2 class="pirate">${esc(T.obs)}</h2><div class="card"><span class="path">${esc(S.paths.overlay)}</span><p class="note" style="color:var(--cmuted)">${esc(T.obsSteps)}</p>
